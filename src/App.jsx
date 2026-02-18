@@ -19,7 +19,7 @@ function App() {
         category={category}
         setCategory={setCategory}
       />
-      {searchTerm === "" && category==="all"&& <Home />}
+      {searchTerm === "" &&  <Home />}
 
       <Hero searchTerm={searchTerm} category={category} />
     <Footer setCategory={setCategory}/>
