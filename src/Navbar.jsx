@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import { Film, Search, Menu, Tv, Clapperboard } from "lucide-react";
 
 const Navbar = ({ searchTerm, setSearchTerm, category, setCategory }) => {
@@ -75,6 +76,7 @@ const Navbar = ({ searchTerm, setSearchTerm, category, setCategory }) => {
             onChange={(e) => setSearchTerm(e.target.value)}
             className="bg-gray-800 px-2 py-2 outline-none text-sm"
           />
+             
         </form>
 
        
